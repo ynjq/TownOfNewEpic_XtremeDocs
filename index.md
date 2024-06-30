@@ -39,5 +39,5 @@ const members = [
 
 <h2>本文档贡献者</h2>
 
-<VPTeamMembers size="small" :members="members" />
+<VPTeamMembers size="medium" :members="members" />
 </div>

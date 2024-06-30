@@ -28,7 +28,7 @@ const members = [
   {
     avatar: 'https://cn-sy1.rains3.com/xtremewave/QingFeng.png',
     name: 'QingFeng',
-    title: 'Main Developer',
+    title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/QingFeng-awa' }
     ]
@@ -37,7 +37,7 @@ const members = [
 </script>
 <div align="center">
 
-<h2>Contributors to this document</h2>
+<h2>Contributors to this docs</h2>
 
-<VPTeamMembers size="small" :members="members" />
+<VPTeamMembers size="medium" :members="members" />
 </div>

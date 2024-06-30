@@ -18,6 +18,10 @@ export default defineConfig({
           { text: '首页', link: '/' },
           { text: '内鬼职业', link: '/Role/Impostor/' }
         ],
+        editLink: {
+          pattern: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeDocs/blob/main/:path',
+          text: '在GitHub上查看此页'
+        },
       }
     },
     en: {
@@ -31,6 +35,10 @@ export default defineConfig({
           { text: 'Home', link: '/en/' },
           { text: 'Impostor', link: '/en/Role/Impostor/' }
         ],
+        editLink: {
+          pattern: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeDocs/blob/main/:path',
+          text: 'See this Page on GitHub'
+        },
       }
     }
   },
@@ -40,9 +48,9 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '内鬼职业', link: '/Role/Impostor/' }
     ],
-    //socialLinks: [
-    //  { icon: 'github', link: 'https://github.com/XtremeWave/' }
-    //],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeDocs' }
+    ],
     search: {
       provider: 'local',
       options: {
@@ -74,6 +82,10 @@ export default defineConfig({
     docFooter: {
       prev: false,
       next: false
+    },
+    editLink: {
+      pattern: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeDocs/blob/main/:path',
+      text: '在GitHub上查看此页'
     },
     footer: {
       copyright: 'Copyright © 2024 <a href="https://www.xtreme.net.cn">XtremeWave</a>'
