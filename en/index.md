@@ -9,7 +9,7 @@ hero:
       link: https://wwww.xtreme.net.cn/donate
     - theme: alt
       text: Impostor
-      link: /Role/Impostor/
+      link: /en/Role/Impostor/
 features:
   - title: Vigilante
     details: You can kill 1 player

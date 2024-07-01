@@ -18,6 +18,18 @@ export default defineConfig({
           { text: '首页', link: '/' },
           { text: '内鬼职业', link: '/Role/Impostor/' }
         ],
+        sidebar: {
+          '/Role/Impostor/': [
+            {
+              text: '内鬼阵营职业',
+              items: [
+                { text: '导览', link: '/Role/Impostor/' },
+                { text: '赏金猎人', link: '/Role/Impostor/' },
+                { text: '3', link: '/Role/Impostor/' }
+              ]
+            }
+          ]
+        },
         editLink: {
           pattern: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeDocs/blob/main/:path',
           text: '在GitHub上查看此页'
@@ -35,12 +47,36 @@ export default defineConfig({
           { text: 'Home', link: '/en/' },
           { text: 'Impostor', link: '/en/Role/Impostor/' }
         ],
+        sidebar: {
+          '/Role/Impostor/': [
+            {
+              text: '内鬼阵营职业',
+              items: [
+                { text: '导览', link: '/Role/Impostor/' },
+                { text: '赏金猎人', link: '/Role/Impostor/' },
+                { text: '3', link: '/Role/Impostor/' }
+              ]
+            }
+          ]
+        },
         editLink: {
           pattern: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeDocs/blob/main/:path',
           text: 'See this Page on GitHub'
         },
       }
     }
+  },
+  sidebar: {
+    '/Role/Impostor/': [
+      {
+        text: '内鬼阵营职业',
+        items: [
+          { text: '导览', link: '/Role/Impostor/' },
+          { text: '赏金猎人', link: '/Role/Impostor/' },
+          { text: '3', link: '/Role/Impostor/' }
+        ]
+      }
+    ]
   },
   lastUpdated: false,
   themeConfig: {
