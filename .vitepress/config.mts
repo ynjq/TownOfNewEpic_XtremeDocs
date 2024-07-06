@@ -5,6 +5,7 @@ export default defineConfig({
   lang: "zh-CN",
   logo: '/TONEX.ico',
   title: "TONEX职业文档",
+  titleTemplate: ':title - TONEX职业文档',
   description: "i18n支持的、最全的官方文档。",
   head: [['link', { rel: 'icon', href: '/TONEX.ico' }]],
   locales: {
@@ -12,6 +13,7 @@ export default defineConfig({
       label: '简体中文',
       lang: 'zh-CN',
       title: 'TONEX职业文档',
+      titleTemplate: ':title - TONEX职业文档',
       description: 'i18n支持的、最全的官方文档。',
       themeConfig: {
         nav: [
@@ -23,9 +25,9 @@ export default defineConfig({
             {
               text: '内鬼阵营职业',
               items: [
-                { text: '导览', link: '/Role/Impostor/' },
-                { text: '赏金猎人', link: '/Role/Impostor/' },
-                { text: '3', link: '/Role/Impostor/' }
+                { text: '前言', link: '/Role/Impostor/' },
+                { text: '赏金猎人', link: '/Role/Impostor/BountyHunter' },
+                { text: '梦魇', link: '/Role/Impostor/Mare' }
               ]
             }
           ]
@@ -41,6 +43,7 @@ export default defineConfig({
       lang: 'en-US',
       link: '/en/',
       title: 'TONEX Role Docs',
+      titleTemplate: ':title - TONEX Role Docs',
       description: 'The i18n supported and most complete official documentation.',
       themeConfig: {
         nav: [
@@ -48,13 +51,13 @@ export default defineConfig({
           { text: 'Impostor', link: '/en/Role/Impostor/' }
         ],
         sidebar: {
-          '/Role/Impostor/': [
+          '/en/Role/Impostor/': [
             {
-              text: '内鬼阵营职业',
+              text: 'Impostor Roles',
               items: [
-                { text: '导览', link: '/Role/Impostor/' },
-                { text: '赏金猎人', link: '/Role/Impostor/' },
-                { text: '3', link: '/Role/Impostor/' }
+                { text: 'Foreword', link: '/en/Role/Impostor/' },
+                { text: 'Bounty Hunter', link: '/en/Role/Impostor/BountyHunter' },
+                { text: 'Mare', link: '/en/Role/Impostor/Mare' }
               ]
             }
           ]
