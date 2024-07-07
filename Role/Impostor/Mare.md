@@ -1,7 +1,22 @@
 ---
 title: 梦魇
-description: If you kill your indicated target, your next kill cooldown will be greatly reduced.If you kill anyone other than your target, your next kill cooldown will increase.The target swaps after a configurable amount of time.
+description: 梦魇只能在停电时下进行正常击杀。若梦魇击杀成功,梦魇的击杀冷却将变成原来的一半。此外,停电持续的时间内梦魇的移动速度也会增加,但是请注意,停电时间内内所有玩家都能看到梦魇的名字以红色表示。梦魇在电力恢复的情况下使用击杀按钮会让目标的视野里显示电力被破坏（只有目标知道电力被破坏,其它人不会知道）
 ---
 
 <img src="https://cn-sy1.rains3.com/xtremewave/Mare.png">
 <h3 align="center"><font color=#ff1919> 『晚安~玛卡巴卡~』 </font></h3>
+
+梦魇只能在停电时下进行正常击杀。<br>
+若梦魇击杀成功,梦魇的击杀冷却将变成原来的一半。<br>
+此外,停电持续的时间内梦魇的移动速度也会增加,但是请注意,停电时间内内所有玩家都能看到梦魇的名字以红色表示。<br>
+梦魇在电力恢复的情况下使用击杀按钮会让目标的视野里显示电力被破坏(只有目标知道电力被破坏,其它人不会知道)。
+
+# 角色设置
+- 最大人数
+- 熄灯时的额外速度
+- 熄灯时的击杀冷却时间
+# 角色故事
+梦魇是很多人的噩梦常客,他总是会在你做噩梦的时候出现。<br>
+黑夜就是他的猎食地,白天就是他的休息时间。<br>
+如果你突然在晚上感觉到一股很深的睡意,不用怀疑那就是梦魇。<br>
+如果你迟迟不肯在这美妙的夜晚中睡去,会有人帮你陷入永久的长眠的。

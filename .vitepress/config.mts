@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   cleanUrls: true,
   lang: "zh-CN",
-  logo: '/TONEX.ico',
   title: "TONEX职业文档",
   titleTemplate: ':title - TONEX职业文档',
   description: "i18n支持的、最全的官方文档。",
   head: [['link', { rel: 'icon', href: '/TONEX.ico' }]],
   locales: {
     root: {
+      logo: '/Public/TONEX.ico',
       label: '简体中文',
       lang: 'zh-CN',
       title: 'TONEX职业文档',
@@ -39,6 +39,7 @@ export default defineConfig({
       }
     },
     en: {
+      logo: '/en/Public/TONEX.ico',
       label: 'English',
       lang: 'en-US',
       link: '/en/',
