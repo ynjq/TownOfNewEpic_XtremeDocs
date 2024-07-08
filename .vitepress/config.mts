@@ -27,7 +27,8 @@ export default defineConfig({
               items: [
                 { text: '前言', link: '/Role/Impostor/' },
                 { text: '赏金猎人', link: '/Role/Impostor/BountyHunter' },
-                { text: '梦魇', link: '/Role/Impostor/Mare' }
+                { text: '梦魇', link: '/Role/Impostor/Mare' },
+                { text: '烟花商人', link: '/Role/Impostor/Fireworker'}
               ]
             }
           ]

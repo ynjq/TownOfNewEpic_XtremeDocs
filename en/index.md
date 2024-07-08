@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: "TONEX Role Docs"
-  tagline: The i18n supported and most complete official documentation.
+  tagline: The i18n supported and most complete official docs.
   actions:
     - theme: brand
       text: Donate
@@ -32,6 +32,19 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/QingFeng-awa' }
     ]
+  },
+  {
+    avatar: 'https://cn-sy1.rains3.com/xtremewave/ynjq.jpg',
+    name: "一念旧情",
+    title: 'Role Story Author',
+    links: [
+      { icon: 'github', link: 'https://github.com/ynjq' }
+    ]
+  },
+  {
+    avatar: 'https://cn-sy1.rains3.com/xtremewave/ChatGPT.png',
+    name: "ChatGPT",
+    title: 'Translate',
   }
 ]
 </script>

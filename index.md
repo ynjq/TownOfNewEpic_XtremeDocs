@@ -32,6 +32,14 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/QingFeng-awa' }
     ]
+  },
+  {
+    avatar: 'https://cn-sy1.rains3.com/xtremewave/ynjq.jpg',
+    name: "一念旧情",
+    title: '角色故事作者',
+    links: [
+      { icon: 'github', link: 'https://github.com/ynjq' }
+    ]
   }
 ]
 </script>
