@@ -18,7 +18,8 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
-          { text: '内鬼职业', link: '/Role/Impostor/' }
+          { text: '内鬼职业', link: '/Role/Impostor/' },
+          { text: '船员职业', link: '/Role/Crewmate/' }
         ],
         sidebar: {
           '/Role/Impostor/': [
@@ -28,7 +29,17 @@ export default defineConfig({
                 { text: '前言', link: '/Role/Impostor/' },
                 { text: '赏金猎人', link: '/Role/Impostor/BountyHunter' },
                 { text: '梦魇', link: '/Role/Impostor/Mare' },
-                { text: '烟花商人', link: '/Role/Impostor/Fireworker'}
+                { text: '烟花商人', link: '/Role/Impostor/Fireworker'},
+                { text: '杀戮机器', link: '/Role/Impostor/KillingMachine'},
+              ]
+            }
+          ],
+          '/Role/Crewmate/': [
+            {
+              text: '船员阵营职业',
+              items: [
+                { text: '前言', link: '/Role/Crewmate/' },
+                { text: '占卜师', link: '/Role/Crewmate/FortuneTeller' },
               ]
             }
           ]
@@ -50,7 +61,8 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Impostor', link: '/en/Role/Impostor/' }
+          { text: 'Impostor', link: '/en/Role/Impostor/' },
+          { text: 'Crewmate', link: '/Role/Crewmate/' }
         ],
         sidebar: {
           '/en/Role/Impostor/': [
@@ -59,7 +71,17 @@ export default defineConfig({
               items: [
                 { text: 'Foreword', link: '/en/Role/Impostor/' },
                 { text: 'Bounty Hunter', link: '/en/Role/Impostor/BountyHunter' },
-                { text: 'Mare', link: '/en/Role/Impostor/Mare' }
+                { text: 'Mare', link: '/en/Role/Impostor/Mare' },
+                { text: 'Killing Machine', link: '/en/Role/Impostor/KillingMachine'},
+              ]
+            }
+          ],
+          '/en/Role/Crewmate/': [
+            {
+              text: 'Crewmate Roles',
+              items: [
+                { text: 'Foreword', link: '/en/Role/Crewmate/' },
+                { text: 'Fortune Teller', link: '/en/Role/Crewmate/FortuneTeller' },
               ]
             }
           ]
@@ -67,6 +89,15 @@ export default defineConfig({
         editLink: {
           pattern: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeDocs/blob/main/:path',
           text: 'See this Page on GitHub'
+        },
+        sidebarMenuLabel: "Menu",
+        darkModeSwitchLabel: "ColorMode",
+        lightModeSwitchTitle: "Now is dark mode",
+        darkModeSwitchTitle: "Now is light mode",
+        returnToTopLabel: "Go to top",
+        docFooter: {
+          prev: false,
+          next: false
         },
       }
     }

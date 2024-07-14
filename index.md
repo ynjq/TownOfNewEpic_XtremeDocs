@@ -1,4 +1,5 @@
 ---
+title: 首页
 layout: home
 hero:
   name: "TONEX职业文档"
@@ -6,10 +7,13 @@ hero:
   actions:
     - theme: brand
       text: 赞助我们
-      link: https://wwww.xtreme.net.cn/donate
+      link: https://www.xtreme.net.cn/donate
     - theme: alt
       text: 内鬼职业
       link: /Role/Impostor/
+    - theme: alt
+      text: 船员职业
+      link: /Role/Crewmate/
 features:
   - title: 侠客
     details: 行侠仗义！
@@ -20,6 +24,10 @@ features:
   - title: 闲游者
     details: 纵使苍天陨落，契约必须完成
 ---
+
+---
+> [!WARNING] 试运行站点
+> 试运行站点运行可能不稳定,您可能会遇到[502错误](https://baike.baidu.com/item/502%20bad%20gateway/858572)。
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'

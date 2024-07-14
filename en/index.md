@@ -1,4 +1,5 @@
 ---
+title: Home
 layout: home
 hero:
   name: "TONEX Role Docs"
@@ -6,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: Donate
-      link: https://wwww.xtreme.net.cn/donate
+      link: https://www.xtreme.net.cn/donate
     - theme: alt
       text: Impostor
       link: /en/Role/Impostor/
@@ -20,6 +21,10 @@ features:
   - title: Vagator
     details: Nothing can be accomplished without rules or standards
 ---
+
+---
+> [!WARNING] Pilot site
+> Trial runs of the site may be unstable, and you might encounter [502 Bad Gateway](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502) errors.
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
